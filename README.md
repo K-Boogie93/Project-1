@@ -3,16 +3,8 @@ Project-1
 
 Project that takes in objects and places them into a graph. The user can then ask to print the graph or get the shortest distance.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//Below is the main method websearch~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Below is the main method websearch
 
-package searchEngine;
-import java.io.*;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-
-import readFile.*;
 
 
 
@@ -189,10 +181,7 @@ public class WebSearch {
 	}
 }
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//Below is the class Vertex~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-package searchEngine;
-
-import java.util.*;
+//Below is the class Vertex
 
 public class Vertex {
     
@@ -231,8 +220,8 @@ public class Vertex {
 	
 	
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//below is the class neighbor~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-package searchEngine;
+//below is the class neighbor
+
 
 public class Neighbor {
 	Vertex node;
